@@ -1,0 +1,155 @@
+.wrapper{
+  display: flex;
+}
+
+/* サイドバー */
+.side_bar{
+  height: 100vh;
+  width: 300px;
+}
+
+.side_header{
+  height: 100px;
+  width: 100%;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.create_chatroom a{
+  border: 1px solid lightblue;
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.rooms{
+  height: calc(100vh - 100px);
+  width: 100%;
+  padding: 0 20px;
+  background-color: #2f3e51;
+  overflow: scroll;
+}
+
+.room{
+  padding: 20px 0 40px;
+}
+
+.room_name a{
+  color: white;
+  text-decoration: none;
+}
+
+/* チャット画面 */
+.main_chat{
+  height: 100vh;
+  width: calc(100vw - 300px);
+}
+
+.chat_header{
+  height: 100px;
+  width: 100%;
+  padding: 0 40px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.current_room{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.finish_chat{
+  margin-top: 40px;
+}
+
+.finish_chat a{
+  text-decoration: none;
+  border: 1px solid darkred;
+  color: darkred;
+  padding: 20px;
+}
+
+.chat_area{
+  height: calc(100vh - 190px);
+  width: 100%;
+  padding: 46px 40px 0;
+  background-color: #fafafa;
+}
+
+.message{
+  margin-bottom:30px;
+}
+
+.who_when{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.name{
+  font-size: 16px;
+  margin-right: 10px;
+  color: #434a54;
+}
+
+.date{
+  font-size: 12px;
+  color: #999;
+
+}
+
+.form{
+  height: 90px;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #dddddd;
+  display: flex;
+}
+
+.form-input {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
